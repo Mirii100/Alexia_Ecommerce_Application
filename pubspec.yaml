@@ -1,0 +1,33 @@
+name: alexia_exommerce_app
+description: "project for sales"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  file_picker: ^8.1.2
+  cupertino_icons: ^1.0.8
+  country_code_picker: ^3.0.0
+  http: ^1.2.2
+  sqflite: ^2.3.3+2
+  flutter_local_notifications: ^17.2.3
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/

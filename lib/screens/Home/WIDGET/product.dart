@@ -132,6 +132,7 @@ final List<Product>products=[
       review: 'reviewd  by Antony Njuguna',
       colors: [Colors.black,Colors.blue,
         Colors.cyanAccent]),
+
   Product(title: 'spirit',
       quantity: 2,
       rate: 10.9,
